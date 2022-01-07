@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="xxxxx, Hazzy">
+    <meta name="keywords" content="修改Git某一次Commit信息, Hazzy">
     <meta name="description" content="想做的行动起来 然后坚持下去">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>xxxxx | Hazzy</title>
+    <title>修改Git某一次Commit信息 | Hazzy</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -29,7 +29,8 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"></head>
+<meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 
@@ -102,17 +103,6 @@
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/contact" class="waves-effect waves-light">
-      
-      <i class="fas fa-comments" style="zoom: 0.6;"></i>
-      
-      <span>留言板</span>
     </a>
     
   </li>
@@ -211,17 +201,6 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/contact" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-comments"></i>
-			
-			留言板
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
 		<a href="/friends" class="waves-effect waves-light">
 			
 			    <i class="fa-fw fas fa-address-book"></i>
@@ -234,8 +213,8 @@
         
         <li><div class="divider"></div></li>
         <li>
-            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
-                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            <a href="https://github.com/LLLzzzH" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>
             </a>
         </li>
         
@@ -291,8 +270,8 @@
     }
 </style>
 
-<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="Fork Me" data-position="left" data-delay="50">
+<a href="https://github.com/LLLzzzH" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="" data-position="left" data-delay="50">
     <svg viewBox="0 0 250 250" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
         <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
@@ -310,12 +289,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">xxxxx</h1>
+                    <h1 class="description center-align post-title">修改Git某一次Commit信息</h1>
                 </div>
             </div>
         </div>
@@ -429,9 +408,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/git/">
+                                <span class="chip bg-color">git</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -443,17 +426,27 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-23
+                    2020-06-22
                 </div>
                 
 
                 
 
                 
-
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    121
+                </div>
                 
 
                 
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
             </div>
         </div>
         <hr class="clearfix">
@@ -464,7 +457,33 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                
+                <h2 id="查询历史记录"><a href="#查询历史记录" class="headerlink" title="查询历史记录"></a>查询历史记录</h2><pre class="line-numbers language-sh"><code class="language-sh">git log
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="指定修改记录"><a href="#指定修改记录" class="headerlink" title="指定修改记录"></a>指定修改记录</h2><pre class="line-numbers language-sh"><code class="language-sh">git rebase -i 某一条的SHA
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>如果要修改第一条的记录</li>
+</ul>
+<pre class="line-numbers language-sh"><code class="language-sh">git rebase -i --root
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="http://xiaoyio.com/usr/uploads/img/WeChatbf8d09afd18a51d3f50173bb4aa97607.png"></p>
+<ul>
+<li>使用<code>vim</code>语法 将需要更改的某一条信息的 pick 修改成 edit</li>
+<li><code>:wq</code> 保存并退出</li>
+</ul>
+<h2 id="提交更改"><a href="#提交更改" class="headerlink" title="提交更改"></a>提交更改</h2><pre class="line-numbers language-sh"><code class="language-sh">git commit --amend
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="http://xiaoyio.com/usr/uploads/img/WeChatf907bc017934fef11155eaaa6f0124b7.png"></p>
+<ul>
+<li>将上次提交的信息修改成需要更改后的内容 使用<code>vim</code>语法修改</li>
+<li>：wq 保存退出</li>
+</ul>
+<h2 id="推送远程"><a href="#推送远程" class="headerlink" title="推送远程"></a>推送远程</h2><pre class="line-numbers language-sh"><code class="language-sh">git push origin 远程分支 -f
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>推送成功即可</li>
+</ul>
+
                 
             </div>
             <hr/>
@@ -490,7 +509,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://hz.xiaoyio.com/2021/12/23/myHexo/">http://hz.xiaoyio.com/2021/12/23/myHexo/</a>
+                    <a href="http://hz.xiaoyio.com/2020/06/22/%E4%BF%AE%E6%94%B9Git%E6%9F%90%E4%B8%80%E6%AC%A1Commit%E4%BF%A1%E6%81%AF/">http://hz.xiaoyio.com/2020/06/22/%E4%BF%AE%E6%94%B9Git%E6%9F%90%E4%B8%80%E6%AC%A1Commit%E4%BF%A1%E6%81%AF/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -527,7 +546,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/git/">
+                                    <span class="chip bg-color">git</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -695,18 +718,17 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/12/23/myHexo/">
+                <a href="/2020/06/23/%E5%B0%81%E8%A3%85cookie%E6%96%B9%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="xxxxx">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="封装cookie方法">
                         
-                        <span class="card-title">xxxxx</span>
+                        <span class="card-title">封装cookie方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -716,9 +738,9 @@
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-23
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-23
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -727,7 +749,14 @@
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JS%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">JS基础</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -735,16 +764,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/12/23/myHexo/">
+                <a href="/2020/06/21/VuePress-%E5%88%9D%E4%BD%93%E9%AA%8C/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="xxxxx">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="VuePress 初体验">
                         
-                        <span class="card-title">xxxxx</span>
+                        <span class="card-title">VuePress 初体验</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -755,7 +784,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-23
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-21
                             </span>
                         <span class="publish-author">
                             
@@ -765,7 +794,14 @@
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/VuePress/">
+                        <span class="chip bg-color">VuePress</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -956,7 +992,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2019-2021</span>
+                <span id="year">2019-2022</span>
             
             <span id="year">2019</span>
             <a href="/about" target="_blank">HazzyLin</a>
@@ -986,13 +1022,13 @@
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/LLLzzzH" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:lhzlin@126.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1001,10 +1037,6 @@
 
 
 
-
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-        <i class="fab fa-qq"></i>
-    </a>
 
 
 
